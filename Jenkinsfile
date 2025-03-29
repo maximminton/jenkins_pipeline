@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'NodeJS-22' // Refers to the NodeJS installation configured earlier
+        nodejs 'NodeJS_23_10' // Refers to the NodeJS installation configured earlier
     }
     stages {
         stage('Prepare') {
